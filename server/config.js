@@ -16,7 +16,7 @@ const conf = convict({
   },
   listen_port: {
     format: 'port',
-    default: 1443,
+    default: 8080,
     arg: 'port',
     env: 'PORT'
   },
@@ -42,7 +42,7 @@ const conf = convict({
   },
   max_file_size: {
     format: Number,
-    default: 1024 * 1024 * 1024 * 2,
+    default: 1024 * 1024 * 1024 * 8,
     env: 'MAX_FILE_SIZE'
   },
   expire_seconds: {
@@ -57,7 +57,7 @@ const conf = convict({
   },
   base_url: {
     format: 'url',
-    default: 'https://send.firefox.com',
+    default: 'http://upload.vitribox.de',
     env: 'BASE_URL'
   },
   file_dir: {
