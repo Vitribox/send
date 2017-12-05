@@ -10,8 +10,6 @@ module.exports = function(state, emit) {
     <div class="title">${state.translate('uploadPageHeader')}</div>
     <div class="description">
       <div>${state.translate('uploadPageExplainer')}</div>
-      <a href="https://testpilot.firefox.com/experiments/send"
-        class="link">${state.translate('uploadPageLearnMore')}</a>
     </div>
     <div class="upload-window"
       ondragover=${dragover}
@@ -36,7 +34,6 @@ module.exports = function(state, emit) {
         title="${state.translate('uploadPageBrowseButton1')}">
         ${state.translate('uploadPageBrowseButton1')}</label>
     </div>
-    ${state.promo === 'body' ? fxPromo(state, emit) : ''}
     ${fileList(state, emit)}
   </div>
   `;

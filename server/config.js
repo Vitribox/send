@@ -47,7 +47,7 @@ const conf = convict({
   },
   expire_seconds: {
     format: Number,
-    default: 86400,
+    default: 86400 * 7,
     env: 'EXPIRE_SECONDS'
   },
   l10n_dev: {
