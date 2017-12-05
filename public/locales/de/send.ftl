@@ -2,8 +2,8 @@
 title = Firefox Send
 siteSubtitle = Web-Experiment
 siteFeedback = Feedback
-uploadPageHeader = Privates, verschlüsseltes Austauschen von Dateien
-uploadPageExplainer = Senden Sie Dateien über einen sicheren, privaten und verschlüsselten Link, der automatisch abläuft, damit Ihre Daten nicht für immer im Internet bleiben.
+uploadPageHeader = Ihre Datensicherheit ist uns wichtig. Daher bietet VITRIBOX stets den aktuellsten, verschlüsselten Datenaustausch!
+uploadPageExplainer = Senden Sie Ihre Dateien mit bis zu 8 GB Dateigröße über einen sicheren und verschlüsselten Link direkt in unser Datenzentrum.
 uploadPageLearnMore = Mehr erfahren
 uploadPageDropMessage = Ziehen Sie eine Datei zum Hochladen hierher
 uploadPageSizeMessage = Dateien unter 1 GB sorgen für erhöhte Zuverlässigkeit des Betriebs
